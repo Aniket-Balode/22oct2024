@@ -1,20 +1,25 @@
 {
-  "name": "aniket",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Aniket-Balode/22oct2024.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Aniket-Balode/22oct2024/issues"
-  },
-  "homepage": "https://github.com/Aniket-Balode/22oct2024#readme"
+    "name": "aniket",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon ./index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Aniket-Balode/22oct2024.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Aniket-Balode/22oct2024/issues"
+    },
+    "homepage": "https://github.com/Aniket-Balode/22oct2024#readme",
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "express": "^4.21.1"
+    }
 }
